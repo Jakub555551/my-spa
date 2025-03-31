@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .header-links-ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header-link {
+    cursor: pointer;
+  }
+  
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode header {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-mode .header-link:hover {
+    border-bottom: 1px solid #ffffff;
+  }
+  
