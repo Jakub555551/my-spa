@@ -29,9 +29,13 @@ function renderGalleryPage() {
   document.getElementById('app').innerHTML = `
     <h1>Gallery</h1>
     <div class="gallery">
-      <img src="https://picsum.photos/200/300" loading="lazy" />
-      <img src="https://picsum.photos/id/238/300/200" loading="lazy" />
-      <img src="https://picsum.photos/id/239/300/200" loading="lazy" />
+     <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/crowd-551553_1280.jpg" loading="lazy" />
+<img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/architecture-1868667_1280.jpg" loading="lazy" />
+<img src="https://cdn.pixabay.com/photo/2016/11/22/07/09/dandelion-1845162_1280.jpg" loading="lazy" />
+<img src="https://cdn.pixabay.com/photo/2016/11/29/09/32/adult-1868750_1280.jpg" loading="lazy" />
+<img src="https://cdn.pixabay.com/photo/2016/11/29/02/02/mountains-1867303_1280.jpg" loading="lazy" />
+<img src="https://cdn.pixabay.com/photo/2017/02/14/03/03/flowers-2068371_1280.jpg" loading="lazy" />
+
     </div>
   `;
 
