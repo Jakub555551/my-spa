@@ -29,7 +29,7 @@ function renderGalleryPage() {
   document.getElementById('app').innerHTML = `
     <h1>Gallery</h1>
     <div class="gallery">
-      <img src="https://picsum.photos/id/237/300/200" loading="lazy" />
+      <img src="https://picsum.photos/200/300" loading="lazy" />
       <img src="https://picsum.photos/id/238/300/200" loading="lazy" />
       <img src="https://picsum.photos/id/239/300/200" loading="lazy" />
     </div>
